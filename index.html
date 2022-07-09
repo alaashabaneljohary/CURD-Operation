@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CURD Operation ">
+    <title>CURD Operation By Javascript </title>
+    <!-- CSS File -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main class="overflow-hidden">
+<div class="container-lg border p-md-5 shadow overflow-hidden">
+ <div class="Heading mb-5">
+   <marquee behavior="" direction="right">
+    <h1 class="text-light "><span class="text-uppercase text-warning fw-bold">curd</span> operation in javascript</h1>
+   </marquee>
+ </div>
+ <div class="row ">
+   <div class="col-md-4 d-flex flex-column mb-4 ">
+    <label for="firstName">Emplopee  Name </label> 
+     <input type="text"  id="firstName" class="  form-control ">
+   </div>
+   <div class="col-md-4 d-flex flex-column mb-4">
+    <label for="dateOfBirth">Choose Date Of Birth </label>
+     <input type="date"  id="dateOfBirth" class=" form-control">
+   </div> 
+   <div class="col-md-4 d-flex flex-column mb-4 ">
+    <label for="emailInput">Email  </label>
+     <input type="email"  id="emailInput" class="  form-control">
+   </div> 
+   <div class="col-md-4 d-flex flex-column mb-4">
+    <label for="firstName">Emplopee Phone </label> 
+     <input type="tel"  id="PhoneInput" class="  form-control ">
+   </div>
+   <div class="col-md-4 d-flex flex-column mb-4 ">
+    <label for="addresInput">Address  </label>
+     <input type="text"  id="addresInput" class="  form-control">
+   </div> 
+   <div class="col-md-4 d-flex flex-column mb-4 ">
+    <label for="codeId">Code ID  </label>
+     <input type="number"  id="codeId" class="  form-control">
+   </div> 
+ </div>
+ <div class="text-lg-end">
+    <button class="btn btn-warning text-light my-5" onclick="clearElements()">Clear</button>
+    <button class="btn btn-success my-5" onclick="addElements()">Submit</button>
+ </div>
+<table class="table table-bordered ">
+<thead class="">
+    <th>Emplopee Name</th>
+    <th>Date Of Birth </th>
+    <th>Email Id</th>
+    <th>Emplopee Phone</th>
+    <th>Address</th>
+    <th>Pine Code</th>
+    <th>Delete</th>
+</thead>
+<tbody id="tableRow">
+</tbody>
+</table>
+</div>
+</main> 
+    <!-- SCRIPT File-->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

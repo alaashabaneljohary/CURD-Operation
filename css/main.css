@@ -1,0 +1,42 @@
+.Heading 
+{
+    background: #fc387a
+}
+.Heading h1 
+{
+    text-transform: capitalize;
+    padding: 15px 0;
+    font-family: initial ;
+}
+.form-control
+{
+
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.table thead
+{
+    background-color: #2e3755;
+    color: #FFF;
+    height: 35px;
+    line-height: 44px;
+    border: 2px solid #FFF;
+    font-size: 14px;
+    
+}
+.btn 
+{
+    width: 140px;
+}
+body
+{
+    background : linear-gradient(to left ,#000 , #2e3755);
+    color: #FFF;
+}
+td{color: #FFF;}
